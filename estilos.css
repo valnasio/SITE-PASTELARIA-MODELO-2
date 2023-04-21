@@ -1,0 +1,46 @@
+.header{
+  background-color: #C20101;
+}
+
+.body{
+  background-color: #222222;
+}
+.quebra{
+  background-color: #222222;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%; /* garante que o carrossel ocupe toda a altura do body */
+    background-color: #222222;
+  }
+
+  #promo{
+    
+    bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .h1-1{
+    padding: 15px;
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 20px;
+   
+  }
+  .tumbmail {
+    width: 250px; /* Defina a largura da thumbnail */
+    height: 250px; /* Defina a altura da thumbnail */
+    background-size: cover; /* Faz a imagem ocupar todo o espaço da thumbnail */
+    background-position: center; /* Centraliza a imagem na thumbnail */
+    }
+  
+  .carousel-inner{
+    image-resolution: 1920px x 450px;
+
+    padding: 17% 0;
+    background-color: #C20101;
+  }

@@ -1,0 +1,22 @@
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%; /* garante que o carrossel ocupe toda a altura do body */
+  }
+
+  #promo{
+    bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+  .carousel-inner{
+
+    padding: 20vh 0vh;
+    background-color: #C20101;
+  }
